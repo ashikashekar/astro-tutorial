@@ -10,7 +10,44 @@ import "../styles/global.css";
 		<meta name="generator" content={Astro.generator} />
 		<title>Dev Project</title>
 	</head>
+
+	<!-- WICS wired project week 1 task 1 -->
 	<body>
+		<h1 class="font-bold text-3xl m-5">WICS Dev Project TASK 1: About Me!</h1>
+
+		<nav>
+			<a class="m-5 link" href="#about-me">About Me</a>
+			<a class="m-5 link" href="#hobbies">My Hobbies</a>
+			<a class="m-5 link" href="#fun-facts">Fun Facts</a>
+		</nav>
+
+		<div class="flex flex-col">
+			<h1 class="font-bold text-2xl m-5">About Me!</h1>
+			<div class="flex flex-row" id="about-me">
+				<ul class="text-2xl border-2 w-fit p-4 m-5">
+					<li>- My name is Ashika Shekar</li>
+					<li>- I am a junior in computer science</li>
+					<li>- I am interested in UI/UX Design and Web Development</li>
+				</ul>
+			</div>
+			<h1 class="font-bold text-2xl m-5">My Hobbies</h1>
+			<div class="flex flex-col" id="hobbies">
+				
+			</div>
+
+			<h1 class="font-bold text-2xl m-5">My Favorite Colors</h1>
+			<div class="flex flex-row" id="colors">
+				<div class="color m-5 bg-amber-400"></div>
+				<div class="color m-5 bg-red-400"></div>
+				<div class="color m-5 bg-blue-400"></div>
+			</div>
+			
+		</div>
+
+
+
+
+		<!-- 
 		<h1 class="font-bold text-3xl m-5">WiCS Dev Project: Spring 2025</h1>
 		<nav>
 			<a class="m-5 link" href="#food">Food</a>
@@ -51,8 +88,10 @@ import "../styles/global.css";
 			</div>
 			
 		</div>
-		<!-- <button class="bg-blue-100 rounded-md p-2 m-5 cursor-pointer variant-default">Generate Number</button> -->
-	</body>
+		
+		  <button class="bg-blue-100 rounded-md p-2 m-5 cursor-pointer variant-default">Generate Number</button> 
+		-->
+	</body> 
 </html>
 
 <style>
@@ -66,4 +105,23 @@ import "../styles/global.css";
 		border: 1px solid black;
 		border-radius: 50%;
 	}
+
+	.my-button {
+    background-color: violet;
+    color: white;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .my-button:hover {
+    background-color: violet;
+  }
+
+  html {
+        scroll-behavior: smooth; /* Enables smooth scrolling */
+  }
+
 </style>

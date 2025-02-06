@@ -12,9 +12,10 @@ import "../styles/global.css";
 	</head>
 
 	<!-- WICS wired project week 1 task 1 -->
-	<body>
-		<h1 class="font-bold text-3xl m-5">WICS Dev Project TASK 1: About Me!</h1>
+	<body class="bg-indigo-100">
+		<h1 class="font-bold text-3xl m-5">WICS Dev Project TASK 1</h1>
 
+		<!-- button links -->
 		<nav>
 			<a class="m-5 link" href="#about-me">About Me</a>
 			<a class="m-5 link" href="#hobbies">My Hobbies</a>
@@ -22,24 +23,53 @@ import "../styles/global.css";
 		</nav>
 
 		<div class="flex flex-col">
+			<!-- about me section -->
 			<h1 class="font-bold text-2xl m-5">About Me!</h1>
 			<div class="flex flex-row" id="about-me">
-				<ul class="text-2xl border-2 w-fit p-4 m-5">
+				<ul class="text-2xl border-2 w-fit p-4 m-5 bg-rose-300 rounded-lg shadow-md">
 					<li>- My name is Ashika Shekar</li>
 					<li>- I am a junior in computer science</li>
 					<li>- I am interested in UI/UX Design and Web Development</li>
 				</ul>
 			</div>
-			<h1 class="font-bold text-2xl m-5">My Hobbies</h1>
+
+			<!-- hobbies section -->
+			<h1 class="font-bold text-2xl m-5">My Hobbies!</h1>
 			<div class="flex flex-col" id="hobbies">
-				
+				<ul class="m-5">
+					<li class="font-semibold">I like to read</li>
+					<li class="font-semibold">I'm currently reading the naturals series</li>
+					<img class="m-5 w-[200px]" src="/assets/reading.jpg"/>
+				</ul>
+				<ul class="m-5">
+					<li class="font-semibold">I like to cook</li>
+					<li class="font-semibold">I can make really good dumplings ;)</li>
+					<img class="m-5 w-[200px]" src="/assets/cooking.jpg"/>
+				</ul>
+				<ul class="m-5">
+					<li class="font-semibold">I like to listen to music</li>
+					<li class="font-semibold">My favorite artists are:<br>
+						- Olivia Rodrigo<br>
+						- Gracie Abrams<br>
+						- Sabrina Carpenter<br>
+						- Ariana Grande<br>
+					</li>
+					<img class="m-5 w-[200px]" src="/assets/music.jpg"/>
+				</ul>				
 			</div>
 
-			<h1 class="font-bold text-2xl m-5">My Favorite Colors</h1>
-			<div class="flex flex-row" id="colors">
-				<div class="color m-5 bg-amber-400"></div>
-				<div class="color m-5 bg-red-400"></div>
-				<div class="color m-5 bg-blue-400"></div>
+			<!-- fun facts section -->
+			<h1 class="font-bold text-2xl m-5">Fun Facts!</h1>
+			<div class="flex flex-row" id="fun-facts">
+				<ul class="text-2xl border-2 w-fit p-4 m-5 bg-pink-300 rounded-lg shadow-md">
+					<li>I am from Houston</li>
+				</ul>
+				<ul class="text-2xl border-2 w-fit p-4 m-5 bg-purple-300 rounded-lg shadow-md">
+					<li>I have been to more than 10 countries</li>
+				</ul>
+				<ul class="text-2xl border-2 w-fit p-4 m-5 bg-blue-300 rounded-lg shadow-md">
+					<li>In my free time I like to do embroidery</li>
+				</ul>
 			</div>
 			
 		</div>
